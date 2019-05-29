@@ -1,0 +1,173 @@
+html { scroll-behavior: smooth;}
+
+
+
+#toTop { 
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+}
+/* margin classes */
+
+.m-top { margin-top: 5%;}
+.m-top2 { margin-top: 5%}
+.m-top3 { margin-top: 2%}
+.m-top4 { margin-top: 11%;}
+.m-top5 { margin-top: 7%;}
+
+/* Container-1 */
+.bg-one {
+    background: linear-gradient(rgba(36, 38, 39, 0.233),rgb(42, 42, 42)), url('img/bg-1.jpeg');
+    background-size: cover;
+    background-position: bottom;
+    height: 100vh;
+
+    color: rgba(231, 230, 216, 0.835);
+    background-attachment: fixed;   
+}
+#title { 
+    font-size: 40px;
+    font-family: 'Ranga', cursive;
+}
+
+    
+#name {
+     font-size: 40px;
+    font-family: 'Muli', sans-serif;}
+#profession {
+     font-size:20px;
+    font-family: 'Muli', sans-serif;}
+
+
+.myButton {
+	-moz-box-shadow: 3px 10px 26px -10px #9fb4f2;
+	-webkit-box-shadow: 3px 10px 26px -10px #9fb4f2;
+	box-shadow: 3px 10px 26px -10px #9fb4f2;
+	background-color:transparent;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	border:1px solid #dbdfeb;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:15px 60px;
+	text-decoration:none;
+}
+.myButton:hover {
+    text-decoration: none;
+    background-color: rgba(172, 161, 161, 0.342);
+    color: rgba(253, 228, 84, 0.719);
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.contact-btn {text-align: right;}
+
+        
+/* container-2 */
+
+.bg-2 {  
+    background: linear-gradient(rgba(79, 82, 83, 0.233),rgba(42, 42, 42, 0.527)), url('img/usa-today-8908717.0.webp');
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+    font-family: 'Ranga', cursive;
+    color: rgba(231, 230, 216, 0.835);
+    background-attachment: fixed; 
+ }
+
+.box-1 { 
+font-size: 35px;
+padding: 3%;}
+
+.box-1:hover img {
+     border: 3px solid rgba(206, 102, 102, 0.685);
+   
+    }
+.box-1 a { color: white;
+text-decoration: none;}
+
+.box-1 a:hover { color:white;}
+
+/* container-3 */
+
+
+.bg-3 {  
+    background: linear-gradient(rgba(249, 252, 253, 0.233),rgba(212, 206, 206, 0.527)), url('img/bg-3.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-family: 'Ranga', cursive;
+    color: rgba(36, 36, 35, 0.835);
+    background-attachment: fixed; 
+ }
+
+.fb-icon { font-size: 30px;}
+
+.social-box a {color: black;}
+
+.social-box a:hover { 
+
+text-decoration: none;
+color:rgb(206, 87, 58)}
+
+
+.social-box { transform: rotate(-10deg);
+    
+}
+
+.email-icon { margin-left:15%;}
+.mob-icon { margin-left:15%;}
+
+
+
+/* Media */
+
+
+
+@media only screen and (max-width: 600px) {
+  .bg-one { height: 150vh;}
+  .bg-2 { height: 220vh;}
+
+#name {font-size: 35px;}
+#title { font-size: 32px;}
+  .contact-btn {
+text-align: center;
+margin-top: 10%;}
+
+
+.social-box { transform: rotate(0deg); 
+}
+
+.email-icon {
+ margin-left:0%;
+margin-right: 23%;}
+.mob-icon { margin-left:0%;}
+
+.fb-icon { font-size: 20px;
+margin-top: 15%}
+  }
+
+  @media only screen and (max-width: 430px) { 
+    .bg-2 { height: 280vh;}
+   }
+  @media only screen and (max-width: 426px) { 
+    .bg-2 { height: 270vh;}
+   }
+
+  @media only screen and (max-width: 376px) { 
+    .bg-2 { height: 250vh;}
+
+   
+   }
+
+   @media only screen and (max-width: 320px) { 
+    .bg-2 { height: 220vh;}
+   }
+
+  
